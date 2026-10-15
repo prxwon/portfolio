@@ -1,4 +1,4 @@
-```javascript
+
 document.addEventListener("DOMContentLoaded", function () {
     const year = document.getElementById("year");
     const today = document.getElementById("today");
@@ -25,4 +25,3 @@ function toggleTheme() {
 
     localStorage.setItem("portfolio-theme", theme);
 }
-```
